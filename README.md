@@ -5,8 +5,8 @@ receber o sexo, a data de nasc. e o nome, exibir as informações junto a idade,
 
 **receber as informações por:**
 
--query string
--parâmetros
--body params
+- query string
+- parâmetros
+- body params
 
 depois criar um template exibindo as informações, adicinando estilização por css.
