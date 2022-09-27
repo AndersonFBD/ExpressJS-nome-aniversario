@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset='utf-8'>
+    <title>Insira sua data</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stylesheets/style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+        <div class="container">
+            <div class="formulario">
+                <h1><b>Calculadora de idade</b></h1>
+                <form action="/idade3" method="post">
+                
+                <label>Nome:</label>
+                <input type='text' name="nome" id="nome" /><br><br>
+                <label>sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="M">M</option>
+                    <option value="F">F</option>
+                </select><br><br>
+                <label>Data de Nascimento:</label>
+                <input type='date' name="dataNascimento" id='dataNascimento'"/><br><br>
+                <input type="submit" name="btncalc" id="btncalc" value="verificar idade">
+            </form>
+        </div>
+        </div>
+</body>
+</html>
